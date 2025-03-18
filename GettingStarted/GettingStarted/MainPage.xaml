@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GettingStarted.MainPage"
+             xmlns:toolbar="clr-namespace:Syncfusion.Maui.Toolbar;assembly=Syncfusion.Maui.Toolbar">
+
+    <VerticalStackLayout>
+        <toolbar:SfToolbar x:Name="Toolbar" HeightRequest="56">
+            <toolbar:SfToolbar.Items>
+                <toolbar:SfToolbarItem Name="Bold"
+                            ToolTipText="Bold">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE770;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+                <toolbar:SfToolbarItem Name="Underline"
+                            ToolTipText="Underline">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE762;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+                <toolbar:SfToolbarItem Name="Italic"
+                            ToolTipText="Italic">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE771;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+                <toolbar:SfToolbarItem Name="AlignLeft"
+                                    ToolTipText="Align-Left">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE751;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+                <toolbar:SfToolbarItem Name="AlignRight"
+                                    ToolTipText="Align-Right">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE753;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+                <toolbar:SfToolbarItem Name="AlignCenter"
+                                    ToolTipText="Align-Center">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE752;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+                <toolbar:SfToolbarItem Name="AlignJustify"
+                                    ToolTipText="Align-Justify">
+                    <toolbar:SfToolbarItem.Icon>
+                        <FontImageSource Glyph="&#xE74F;"
+                        FontFamily="MauiMaterialAssets" />
+                    </toolbar:SfToolbarItem.Icon>
+                </toolbar:SfToolbarItem>
+            </toolbar:SfToolbar.Items>
+        </toolbar:SfToolbar>
+    </VerticalStackLayout>
+
+</ContentPage>
