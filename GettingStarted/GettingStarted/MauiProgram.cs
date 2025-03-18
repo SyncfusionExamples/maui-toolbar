@@ -13,6 +13,7 @@ namespace GettingStarted
                 .ConfigureSyncfusionCore()
                 .ConfigureFonts(fonts =>
                 {
+                    fonts.AddFont("MauiMaterialAssets.ttf", "MaterialAssets");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
